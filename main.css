@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+nav{
+    background-color: #000000;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, p {
+    color: #1ebebe;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    padding: 0 20px;
+}
+
+
+h1{
+    margin: 0;
+    padding: 10px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+li:hover, h1:hover, button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+button:focus ~ ul{
+    height: 260px;
+}

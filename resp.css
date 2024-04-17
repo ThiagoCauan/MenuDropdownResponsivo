@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px){
+    nav, ul{
+        flex-direction: column;
+        
+    }
+
+    ul{
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    nav{
+        padding: 0px;
+        align-items: flex-start;
+    }
+
+    h1{
+        margin: 10px;
+    }
+       
+
+    button{
+        display: flex;
+    }
+
+    li, ul{
+        width: 100%;
+    }
